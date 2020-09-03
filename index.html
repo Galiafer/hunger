@@ -1,0 +1,1177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <link rel="stylesheet" href="libs/hover-min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Hunger</title>
+</head>
+
+<body>
+  <header class="header pt-4 pb-5" style='background-image: url(img/header/headerBg.jpg);' id="home">
+    <div class="container">
+      <nav class="header__nav row justify-content-between d-none d-lg-flex">
+        <div class="header__list col-4">
+          <ul class="d-flex justify-content-between">
+            <li><a class="header__link hvr-grow" href="#home">HOME</a></li>
+            <li><a class="header__link hvr-grow" href="#about">ABOUT</a></li>
+            <li><a class="header__link hvr-grow" href="#team">TEAM</a></li>
+            <li><a class="header__link hvr-grow" href="#book">BOOKING</a></li>
+          </ul>
+        </div>
+        <div class="header__nav-icon col-2 hvr-grow-rotate"><img src="img/header/headerIcon.svg" alt=""></div>
+        <div class="header__list col-4">
+          <ul class="d-flex justify-content-between">
+            <li><a class="header__link hvr-grow" href="#menu">MENU</a></li>
+            <li><a class="header__link hvr-grow" href="#gallery">GALLERY</a></li>
+            <li><a class="header__link hvr-grow" href="#events">EVENTS</a></li>
+            <li><a class="header__link hvr-grow" href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="header__content row justify-content-between ml-0 ml-lg-5 my-5 py-5">
+        <div class="header__content-center col-11 text-center">
+          <p class="header__subtitle">RESTAURANT</p>
+          <h3 class="header__title mt-2">HUNGRY PEOPLE</h3>
+          <div class="row justify-content-around mx-5 mt-5">
+            <button class="header__btn col-12 mt-4 mt-lg-0 col-lg-4 px-4 py-4 hvr-grow" type="button">BOOK
+              TABLE</button>
+            <button class="header__btn col-12 mt-4 mt-lg-0 col-lg-4 px-4 py-4 hvr-grow" type="button">EXPLORE</button>
+          </div>
+        </div>
+        <div class="header__content-right row justify-content-center mt-5 mt-lg-0 col-12 col-lg-1">
+          <div class="header__icon-1"><a href="https://facebook.com" target="_blank"><svg width="62" height="62"
+                viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="31" cy="31" r="30" stroke="white" stroke-opacity="0.2" />
+                <path class="header__icons"
+                  d="M28.8516 41.9839V33.0386H25.8438V29.4839H28.8516V26.6714C28.8516 25.187 29.2682 24.0412 30.1016 23.2339C30.9349 22.4006 32.0417 21.9839 33.4219 21.9839C34.5417 21.9839 35.4531 22.036 36.1562 22.1401V25.3042H34.2812C33.5781 25.3042 33.0964 25.4604 32.8359 25.7729C32.6276 26.0334 32.5234 26.45 32.5234 27.0229V29.4839H35.8438L35.375 33.0386H32.5234V41.9839H28.8516Z"
+                  fill="white" /></svg></a></div>
+          <div class="header__icon-2 mt-0 mt-lg-3 ml-3 ml-lg-0"><a href="https://instagram.com" target="_blank"><svg
+                width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="31" cy="31" r="30" stroke="white" stroke-opacity="0.2" />
+                <path class="header__icons"
+                  d="M31 27.4917C30.1927 27.4917 29.4375 27.7 28.7344 28.1167C28.0573 28.5073 27.5104 29.0542 27.0938 29.7573C26.7031 30.4344 26.5078 31.1766 26.5078 31.9839C26.5078 32.7912 26.7031 33.5464 27.0938 34.2495C27.5104 34.9266 28.0573 35.4735 28.7344 35.8901C29.4375 36.2808 30.1927 36.4761 31 36.4761C31.8073 36.4761 32.5495 36.2808 33.2266 35.8901C33.9297 35.4735 34.4766 34.9266 34.8672 34.2495C35.2839 33.5464 35.4922 32.7912 35.4922 31.9839C35.4922 31.1766 35.2839 30.4344 34.8672 29.7573C34.4766 29.0542 33.9297 28.5073 33.2266 28.1167C32.5495 27.7 31.8073 27.4917 31 27.4917ZM31 34.9136C30.1927 34.9136 29.5026 34.6271 28.9297 34.0542C28.3568 33.4813 28.0703 32.7912 28.0703 31.9839C28.0703 31.1766 28.3568 30.4865 28.9297 29.9136C29.5026 29.3407 30.1927 29.0542 31 29.0542C31.8073 29.0542 32.4974 29.3407 33.0703 29.9136C33.6432 30.4865 33.9297 31.1766 33.9297 31.9839C33.9297 32.7912 33.6432 33.4813 33.0703 34.0542C32.4974 34.6271 31.8073 34.9136 31 34.9136ZM36.7422 27.2964C36.7161 27.5828 36.599 27.8302 36.3906 28.0386C36.2083 28.2469 35.974 28.3511 35.6875 28.3511C35.401 28.3511 35.1536 28.2469 34.9453 28.0386C34.737 27.8302 34.6328 27.5828 34.6328 27.2964C34.6328 27.0099 34.737 26.7625 34.9453 26.5542C35.1536 26.3459 35.401 26.2417 35.6875 26.2417C35.974 26.2417 36.2214 26.3459 36.4297 26.5542C36.638 26.7625 36.7422 27.0099 36.7422 27.2964ZM39.7109 28.3511C39.6589 27.5959 39.5417 26.9448 39.3594 26.3979C39.125 25.7469 38.7604 25.187 38.2656 24.7183C37.7969 24.2235 37.237 23.8589 36.5859 23.6245C36.0391 23.4422 35.388 23.3381 34.6328 23.312C33.9036 23.2599 32.6927 23.2339 31 23.2339C29.3073 23.2339 28.0833 23.2599 27.3281 23.312C26.599 23.3381 25.9609 23.4422 25.4141 23.6245C24.763 23.8589 24.1901 24.2235 23.6953 24.7183C23.2266 25.187 22.875 25.7469 22.6406 26.3979C22.4583 26.9448 22.3411 27.5959 22.2891 28.3511C22.263 29.0802 22.25 30.2912 22.25 31.9839C22.25 33.6766 22.263 34.9006 22.2891 35.6558C22.3411 36.3849 22.4583 37.0229 22.6406 37.5698C22.875 38.2209 23.2266 38.7938 23.6953 39.2886C24.1901 39.7573 24.763 40.0959 25.4141 40.3042C25.9609 40.5125 26.599 40.6297 27.3281 40.6558C28.0833 40.7078 29.3073 40.7339 31 40.7339C32.6927 40.7339 33.9036 40.7078 34.6328 40.6558C35.388 40.6297 36.0391 40.5256 36.5859 40.3433C37.237 40.1089 37.7969 39.7573 38.2656 39.2886C38.7604 38.7938 39.125 38.2209 39.3594 37.5698C39.5417 37.0229 39.6458 36.3849 39.6719 35.6558C39.724 34.9006 39.75 33.6766 39.75 31.9839C39.75 30.2912 39.737 29.0802 39.7109 28.3511ZM37.8359 37.1401C37.5234 37.9214 36.9635 38.4813 36.1562 38.8198C35.7396 38.9761 35.0365 39.0802 34.0469 39.1323C33.5 39.1584 32.6927 39.1714 31.625 39.1714H30.375C29.3333 39.1714 28.526 39.1584 27.9531 39.1323C26.9896 39.0802 26.2865 38.9761 25.8438 38.8198C25.0625 38.5073 24.5026 37.9474 24.1641 37.1401C24.0078 36.6974 23.9036 35.9943 23.8516 35.0308C23.8255 34.4578 23.8125 33.6506 23.8125 32.6089V31.3589C23.8125 30.3172 23.8255 29.5099 23.8516 28.937C23.9036 27.9474 24.0078 27.2443 24.1641 26.8276C24.4766 26.0203 25.0365 25.4604 25.8438 25.1479C26.2865 24.9917 26.9896 24.8875 27.9531 24.8354C28.526 24.8094 29.3333 24.7964 30.375 24.7964H31.625C32.6667 24.7964 33.474 24.8094 34.0469 24.8354C35.0365 24.8875 35.7396 24.9917 36.1562 25.1479C36.9635 25.4604 37.5234 26.0203 37.8359 26.8276C37.9922 27.2443 38.0964 27.9474 38.1484 28.937C38.1745 29.4839 38.1875 30.2912 38.1875 31.3589V32.6089C38.1875 33.6506 38.1745 34.4578 38.1484 35.0308C38.0964 35.9943 37.9922 36.6974 37.8359 37.1401Z"
+                  fill="white" /></svg></a></div>
+          <div class="header__icon-3 mt-0 mt-lg-3 ml-3 ml-lg-0"><a href="https://twitter.com" target="_blank"><svg
+                width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="31" cy="31" r="30" stroke="white" stroke-opacity="0.2" />
+                <path class="header__icons"
+                  d="M38.9297 27.9214C38.9557 28.0256 38.9688 28.1948 38.9688 28.4292C38.9688 30.3042 38.513 32.1141 37.6016 33.8589C36.6641 35.7078 35.349 37.1792 33.6562 38.2729C31.8073 39.4969 29.6849 40.1089 27.2891 40.1089C24.9974 40.1089 22.901 39.4969 21 38.2729C21.2865 38.299 21.612 38.312 21.9766 38.312C23.8776 38.312 25.5833 37.7261 27.0938 36.5542C26.1823 36.5542 25.375 36.2938 24.6719 35.7729C23.9948 35.2261 23.526 34.549 23.2656 33.7417C23.526 33.7677 23.7734 33.7808 24.0078 33.7808C24.3724 33.7808 24.737 33.7417 25.1016 33.6636C24.1641 33.4552 23.3828 32.9735 22.7578 32.2183C22.1328 31.4631 21.8203 30.6037 21.8203 29.6401V29.562C22.3932 29.9006 23.0052 30.0828 23.6562 30.1089C23.1094 29.7183 22.6667 29.2235 22.3281 28.6245C21.9896 28.0256 21.8203 27.3745 21.8203 26.6714C21.8203 25.9422 22.0156 25.2521 22.4062 24.6011C23.4219 25.8771 24.6589 26.8927 26.1172 27.6479C27.6016 28.4032 29.1771 28.8198 30.8438 28.8979C30.7917 28.5854 30.7656 28.2729 30.7656 27.9604C30.7656 27.2313 30.9479 26.5542 31.3125 25.9292C31.6771 25.2782 32.1719 24.7703 32.7969 24.4058C33.4219 24.0412 34.099 23.8589 34.8281 23.8589C35.4271 23.8589 35.974 23.9761 36.4688 24.2104C36.9896 24.4448 37.4453 24.7573 37.8359 25.1479C38.7734 24.9657 39.6458 24.6401 40.4531 24.1714C40.1406 25.1349 39.5417 25.8901 38.6562 26.437C39.4375 26.3328 40.2188 26.1115 41 25.7729C40.4271 26.6063 39.737 27.3224 38.9297 27.9214Z"
+                  fill="white" /></svg></a></div>
+        </div>
+      </div>
+      <div class="header__footer row col-12 justify-content-center mb-5">
+        <a href="#about">
+          <svg class="hvr-pulse-grow" width="62" fill="none" height="62" viewBox="0 0 62 62"
+            xmlns="http://www.w3.org/2000/svg">
+            <circle cx="31" cy="31" r="30" stroke="white" stroke-opacity="0.2" />
+            <ellipse class="header__icons" cx="31" cy="31" rx="20" ry="20" fill="white" />
+            <path
+              d="M30.3359 35.25L25.0234 29.9375C24.8411 29.7552 24.75 29.5339 24.75 29.2734C24.75 29.013 24.8411 28.7917 25.0234 28.6094L25.9219 27.75C26.1042 27.5677 26.3255 27.4766 26.5859 27.4766C26.8464 27.4766 27.0677 27.5677 27.25 27.75L31 31.5L34.75 27.75C34.9323 27.5677 35.1536 27.4766 35.4141 27.4766C35.6745 27.4766 35.8958 27.5677 36.0781 27.75L36.9766 28.6094C37.1589 28.7917 37.25 29.013 37.25 29.2734C37.25 29.5339 37.1589 29.7552 36.9766 29.9375L31.6641 35.25C31.4818 35.4323 31.2604 35.5234 31 35.5234C30.7396 35.5234 30.5182 35.4323 30.3359 35.25Z"
+              fill="#333333" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </header>
+  <section class="about py-5" id="about">
+    <span class="about__bg d-none d-lg-block"></span>
+    <div class="container">
+      <div class="row justify-content-between text-center align-items-center">
+        <div class="about__content col-12 col-lg-6">
+          <h3 class="about__title">about us</h3>
+          <p class="about__subtitle mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit
+            maximus, molestie est a, tempor magna.</p>
+          <p class="about__text mt-3">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non
+            ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam
+            nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+        </div>
+        <div class="about__img col-12 col-lg-6 mt-5 mt-lg-0">
+          <img src="img/about/about-img.png" alt="" style="display: inline-block;">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="team py-5" style='background-image: url(img/team/teamBg.jpg);' id="team">
+    <span class="team__bg d-none d-lg-block"></span>
+    <div class="container">
+      <div class="row col-12 justify-content-center">
+        <h3 class="team__sectitle">OUR TEAM</h3>
+        <div class="row col-12 align-items-center justify-content-between my-5">
+          <div class="team__img col-12 col-lg-6 mb-5 mb-lg-0"><img src="img/team/chef.png" alt="">
+          </div>
+          <div class="team__content col-12 col-lg-6 text-center">
+            <h3 class="team__title">MASTER CHEF</h3>
+            <p class="team__subtitle mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit
+              maximus, molestie est a, tempor magna.</p>
+            <p class="team__text mt-3">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non
+              ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem
+              quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="book py-5" id="book">
+    <span class="book__bg d-none d-lg-block"></span>
+    <div class="container">
+      <div class="row justify-content-between text-center align-items-center">
+        <div class="book__content col-12 col-lg-6">
+          <h3 class="book__title">book a table</h3>
+          <form class="book__inputs row justify-content-around mt-5" action="POST" autocomplete="off">
+            <input class="book__input col-12 col-lg-5" type="text" name="Name" placeholder="Name">
+            <input class="book__input col-12 col-lg-5 mt-2 mt-lg-0" type="email" name="Email" placeholder="Email">
+            <input class="book__input col-12 col-lg-5 mt-2" type="tel" name="Phone" placeholder="Phone">
+            <select class="book__input book__select col-12 col-lg-5 mt-2">
+              <option>People</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+            </select>
+            <input class="book__input col-12 col-lg-5 mt-2" type="datetime" name="Date" placeholder="Date">
+            <select class="book__input book__select col-12 col-lg-5 mt-2">
+              <option>Time</option>
+              <option>8:00pm</option>
+              <option>8:30pm</option>
+              <option>9:00pm</option>
+              <option>9:30pm</option>
+              <option>10:00pm</option>
+              <option>10:30pm</option>
+              <option>11:00pm</option>
+              <option>11:30pm</option>
+              <option>12:00am</option>
+              <option>12:30am</option>
+              <option>01:00pm</option>
+              <option>01:30pm</option>
+              <option>02:00pm</option>
+              <option>02:30pm</option>
+              <option>03:00pm</option>
+              <option>03:30pm</option>
+            </select>
+            <button class="book__btn col-12 col-lg-11 mt-2" type="button">BOOK NOW</button>
+          </form>
+        </div>
+        <div class="book__img col-12 col-lg-6 mt-5 mt-lg-0">
+          <img src="img/book/book-img.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="specialty py-5" style='background-image: url(img/specialty/specialtyBg.jpg);'>
+    <span class="specialty__bg d-none d-lg-block"></span>
+    <h3 class="row col-12 justify-content-center specialty__sectitle">SPECIALTIES</h3>
+    <div class="container specialty__slider" style="position: relative;">
+      <div class="row col-12 justify-content-center">
+        <div class="row col-12 align-items-center justify-content-between my-5">
+          <div class="specialty__img col-12 col-lg-6 mb-5 mb-lg-0"><img src="img/specialty/food.png" alt="">
+          </div>
+          <div class="specialty__content col-12 col-lg-6 text-center">
+            <h3 class="specialty__title">CHOCOLATE PANCAKES</h3>
+            <p class="specialty__subtitle mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit
+              maximus, molestie est a, tempor magna.</p>
+            <p class="specialty__text mt-3">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere.
+              Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a
+              sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam conv</p>
+          </div>
+        </div>
+      </div>
+      <div class="row col-12 justify-content-center">
+        <div class="row col-12 align-items-center justify-content-between my-5">
+          <div class="specialty__img col-12 col-lg-6 mb-5 mb-lg-0"><img src="img/specialty/food.png" alt="">
+          </div>
+          <div class="specialty__content col-12 col-lg-6 text-center">
+            <h3 class="specialty__title">CHOCOLATE PANCAKES</h3>
+            <p class="specialty__subtitle mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit
+              maximus, molestie est a, tempor magna.</p>
+            <p class="specialty__text mt-3">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere.
+              Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a
+              sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam conv</p>
+          </div>
+        </div>
+      </div>
+      <div class="row col-12 justify-content-center">
+        <div class="row col-12 align-items-center justify-content-between my-5">
+          <div class="specialty__img col-12 col-lg-6 mb-5 mb-lg-0"><img src="img/specialty/food.png" alt="">
+          </div>
+          <div class="specialty__content col-12 col-lg-6 text-center">
+            <h3 class="specialty__title">CHOCOLATE PANCAKES</h3>
+            <p class="specialty__subtitle mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit
+              maximus, molestie est a, tempor magna.</p>
+            <p class="specialty__text mt-3">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere.
+              Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a
+              sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam conv</p>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="menu my-5 py-5" id="menu">
+    <div class="container">
+      <div class="menu__header row justify-content-center text-center">
+        <h3 class="menu__title col-12">DELICIOUS MENU</h3>
+        <p class="menu__text col-12 col-lg-6 mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
+          velit
+          maximus, molestie
+          est a, tempor magna.</p>
+      </div>
+      <div class="menu__categories row col-12 justify-content-center mt-5">
+        <ul class="row justify-content-around">
+          <li class="menu__list actives" style="border-right: 1px solid rgba(51, 51, 51, 0.2);" data-f="all">ALL</li>
+          <li class="menu__list" style="border-right: 1px solid rgba(51, 51, 51, 0.2);" data-f="soupe">SOUPE</li>
+          <li class="menu__list" style="border-right: 1px solid rgba(51, 51, 51, 0.2);" data-f="pizza">
+            PIZZA</li>
+          <li class="menu__list" style="border-right: 1px solid rgba(51, 51, 51, 0.2);" data-f="pasta">PASTA</li>
+          <li class="menu__list" style="border-right: 1px solid rgba(51, 51, 51, 0.2);" data-f="desert">DESERT
+          </li>
+          <li class="menu__list" style="border-right: 1px solid rgba(51, 51, 51, 0.2);" data-f="wine">WINE</li>
+          <li class="menu__list" style="border-right: 1px solid rgba(51, 51, 51, 0.2);" data-f="beer">BEER</li>
+          <li class="menu__list" data-f="drinks">DRINKS</li>
+        </ul>
+      </div>
+      <div class="menu__items row justify-content-between mt-5">
+        <div class="menu__content col-12 col-lg-4 pizza">
+          <ul>
+            <li class="mt-4">
+              <p class="menu__food-name">PIZZA QUATRO STAGIONI . . . .<span class="menu__food-price"> 55,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">PIZZA QUATRO STAGIONI . . . .<span class="menu__food-price"> 55,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">PIZZA QUATRO STAGIONI . . . .<span class="menu__food-price"> 55,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">PIZZA QUATRO STAGIONI . . . .<span class="menu__food-price"> 55,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">PIZZA QUATRO STAGIONI . . . .<span class="menu__food-price"> 55,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">PIZZA QUATRO STAGIONI . . . .<span class="menu__food-price"> 55,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">PIZZA QUATRO STAGIONI . . . .<span class="menu__food-price"> 55,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+          </ul>
+        </div>
+        <div class="menu__content col-12 col-lg-4 pizza" style="display: block;">
+          <ul>
+            <li class="mt-4">
+              <p class="menu__food-name">PIZZA QUATRO STAGIONI . . . .<span class="menu__food-price"> 55,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">PIZZA QUATRO STAGIONI . . . .<span class="menu__food-price"> 55,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">PIZZA QUATRO STAGIONI . . . .<span class="menu__food-price"> 55,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">PIZZA QUATRO STAGIONI . . . .<span class="menu__food-price"> 55,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">PIZZA QUATRO STAGIONI . . . .<span class="menu__food-price"> 55,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">PIZZA QUATRO STAGIONI . . . .<span class="menu__food-price"> 55,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">PIZZA QUATRO STAGIONI . . . .<span class="menu__food-price"> 55,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+          </ul>
+        </div>
+        <div class="menu__content col-12 col-lg-4 pizza" style="display: block;">
+          <ul>
+            <li class="mt-4">
+              <p class="menu__food-name">PIZZA QUATRO STAGIONI . . . .<span class="menu__food-price"> 55,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">PIZZA QUATRO STAGIONI . . . .<span class="menu__food-price"> 55,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">PIZZA QUATRO STAGIONI . . . .<span class="menu__food-price"> 55,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">PIZZA QUATRO STAGIONI . . . .<span class="menu__food-price"> 55,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">PIZZA QUATRO STAGIONI . . . .<span class="menu__food-price"> 55,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">PIZZA QUATRO STAGIONI . . . .<span class="menu__food-price"> 55,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">PIZZA QUATRO STAGIONI . . . .<span class="menu__food-price"> 55,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+          </ul>
+        </div>
+        <div class="menu__content col-12 col-lg-4 soupe">
+          <ul>
+            <li class="mt-4">
+              <p class="menu__food-name">SOUPE STAGIONI . . . .<span class="menu__food-price"> 60,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">SOUPE STAGIONI . . . .<span class="menu__food-price"> 90,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">TOMATO SOUPE . . . .<span class="menu__food-price"> 23,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">SOUPE . . . .<span class="menu__food-price"> 88,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">SOUPE STAGIONI . . . .<span class="menu__food-price"> 11,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">SOUPE QUATRO . . . .<span class="menu__food-price"> 124,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">SOUPE STAGIONI . . . .<span class="menu__food-price"> 345,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+          </ul>
+        </div>
+        <div class="menu__content col-12 col-lg-4 soupe" style="display: block;">
+          <ul>
+            <li class="mt-4">
+              <p class="menu__food-name">SOUPE STAGIONI . . . .<span class="menu__food-price"> 60,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">SOUPE STAGIONI . . . .<span class="menu__food-price"> 90,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">TOMATO SOUPE . . . .<span class="menu__food-price"> 23,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">SOUPE . . . .<span class="menu__food-price"> 88,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">SOUPE STAGIONI . . . .<span class="menu__food-price"> 11,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">SOUPE QUATRO . . . .<span class="menu__food-price"> 124,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">SOUPE STAGIONI . . . .<span class="menu__food-price"> 345,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+          </ul>
+        </div>
+        <div class="menu__content col-12 col-lg-4 soupe" style="display: block;">
+          <ul>
+            <li class="mt-4">
+              <p class="menu__food-name">SOUPE STAGIONI . . . .<span class="menu__food-price"> 60,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">SOUPE STAGIONI . . . .<span class="menu__food-price"> 90,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">TOMATO SOUPE . . . .<span class="menu__food-price"> 23,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">SOUPE . . . .<span class="menu__food-price"> 88,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">SOUPE STAGIONI . . . .<span class="menu__food-price"> 11,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">SOUPE QUATRO . . . .<span class="menu__food-price"> 124,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">SOUPE STAGIONI . . . .<span class="menu__food-price"> 345,68 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+          </ul>
+        </div>
+        <div class="menu__content col-12 col-lg-4 pasta">
+          <ul>
+            <li class="mt-4">
+              <p class="menu__food-name">PASTA STAGIONI . . . .<span class="menu__food-price"> 23 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">PIZZA QUATRO . . . .<span class="menu__food-price"> 10 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">PIZZA QUATRO . . . .<span class="menu__food-price"> 23 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">PIZZA STAGIONI . . . .<span class="menu__food-price"> 58 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">PIZZA . . . .<span class="menu__food-price"> 53 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">PIZZA . . . .<span class="menu__food-price"> 23 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">PINEAPPLE PIZZA . . . .<span class="menu__food-price"> 999 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+          </ul>
+        </div>
+        <div class="menu__content col-12 col-lg-4 pasta" style="display: block;">
+          <ul>
+            <li class="mt-4">
+              <p class="menu__food-name">PASTA STAGIONI . . . .<span class="menu__food-price"> 23 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">PIZZA QUATRO . . . .<span class="menu__food-price"> 10 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">PIZZA QUATRO . . . .<span class="menu__food-price"> 23 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">PIZZA STAGIONI . . . .<span class="menu__food-price"> 58 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">PIZZA . . . .<span class="menu__food-price"> 53 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">PIZZA . . . .<span class="menu__food-price"> 23 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">PINEAPPLE PIZZA . . . .<span class="menu__food-price"> 999 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+          </ul>
+        </div>
+        <div class="menu__content col-12 col-lg-4 pasta" style="display: block;">
+          <ul>
+            <li class="mt-4">
+              <p class="menu__food-name">PASTA STAGIONI . . . .<span class="menu__food-price"> 23 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">PIZZA QUATRO . . . .<span class="menu__food-price"> 10 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">PIZZA QUATRO . . . .<span class="menu__food-price"> 23 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">PIZZA STAGIONI . . . .<span class="menu__food-price"> 58 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">PIZZA . . . .<span class="menu__food-price"> 53 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">PIZZA . . . .<span class="menu__food-price"> 23 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">PINEAPPLE PIZZA . . . .<span class="menu__food-price"> 999 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+          </ul>
+        </div>
+        <div class="menu__content col-12 col-lg-4 desert">
+          <ul>
+            <li class="mt-4">
+              <p class="menu__food-name">DESERT . . . .<span class="menu__food-price"> 242 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">DESERT STAGIONI . . . .<span class="menu__food-price"> 24 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">DESERT QUATRO . . . .<span class="menu__food-price"> 1 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">DESERT STAGIONI . . . .<span class="menu__food-price"> 44 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">DESERT QUATRO . . . .<span class="menu__food-price"> 333 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">DESERT . . . .<span class="menu__food-price"> 111 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">DESERT . . . .<span class="menu__food-price"> 222 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+          </ul>
+        </div>
+        <div class="menu__content col-12 col-lg-4 desert" style="display: block;">
+          <ul>
+            <li class="mt-4">
+              <p class="menu__food-name">DESERT . . . .<span class="menu__food-price"> 242 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">DESERT STAGIONI . . . .<span class="menu__food-price"> 24 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">DESERT QUATRO . . . .<span class="menu__food-price"> 1 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">DESERT STAGIONI . . . .<span class="menu__food-price"> 44 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">DESERT QUATRO . . . .<span class="menu__food-price"> 333 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">DESERT . . . .<span class="menu__food-price"> 111 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">DESERT . . . .<span class="menu__food-price"> 222 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+          </ul>
+        </div>
+        <div class="menu__content col-12 col-lg-4 desert" style="display: block;">
+          <ul>
+            <li class="mt-4">
+              <p class="menu__food-name">DESERT . . . .<span class="menu__food-price"> 242 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">DESERT STAGIONI . . . .<span class="menu__food-price"> 24 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">DESERT QUATRO . . . .<span class="menu__food-price"> 1 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">DESERT STAGIONI . . . .<span class="menu__food-price"> 44 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">DESERT QUATRO . . . .<span class="menu__food-price"> 333 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">DESERT . . . .<span class="menu__food-price"> 111 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">DESERT . . . .<span class="menu__food-price"> 222 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+          </ul>
+        </div>
+        <div class="menu__content col-12 col-lg-4 beer">
+          <ul>
+            <li class="mt-4">
+              <p class="menu__food-name">BEER . . . .<span class="menu__food-price"> 87 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">BEER STAGIONI . . . .<span class="menu__food-price"> 23 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">BEER QUATRO . . . .<span class="menu__food-price"> 44 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">BEER STAGIONI . . . .<span class="menu__food-price"> 15 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">BEER QUATRO . . . .<span class="menu__food-price"> 10 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">BEER . . . .<span class="menu__food-price"> 2 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">BEER . . . .<span class="menu__food-price"> 4 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+          </ul>
+        </div>
+        <div class="menu__content col-12 col-lg-4 beer" style="display: block;">
+          <ul>
+            <li class="mt-4">
+              <p class="menu__food-name">BEER . . . .<span class="menu__food-price"> 87 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">BEER STAGIONI . . . .<span class="menu__food-price"> 23 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">BEER QUATRO . . . .<span class="menu__food-price"> 44 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">BEER STAGIONI . . . .<span class="menu__food-price"> 15 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">BEER QUATRO . . . .<span class="menu__food-price"> 10 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">BEER . . . .<span class="menu__food-price"> 2 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">BEER . . . .<span class="menu__food-price"> 4 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+          </ul>
+        </div>
+        <div class="menu__content col-12 col-lg-4 beer" style="display: block;">
+          <ul>
+            <li class="mt-4">
+              <p class="menu__food-name">BEER . . . .<span class="menu__food-price"> 87 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">BEER STAGIONI . . . .<span class="menu__food-price"> 23 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">BEER QUATRO . . . .<span class="menu__food-price"> 44 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">BEER STAGIONI . . . .<span class="menu__food-price"> 15 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">BEER QUATRO . . . .<span class="menu__food-price"> 10 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">BEER . . . .<span class="menu__food-price"> 2 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">BEER . . . .<span class="menu__food-price"> 4 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+          </ul>
+        </div>
+        <div class="menu__content col-12 col-lg-4 wine">
+          <ul>
+            <li class="mt-4">
+              <p class="menu__food-name">OLD WINE . . . .<span class="menu__food-price"> 100 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">NEW WINE . . . .<span class="menu__food-price"> 2 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">ANCIENT WINE . . . .<span class="menu__food-price"> 700 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">RED WINE . . . .<span class="menu__food-price"> 65 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">POOR WINE . . . .<span class="menu__food-price"> 1 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">STRANGE WINE . . . .<span class="menu__food-price"> 900 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">DESERT . . . .<span class="menu__food-price"> 222 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+          </ul>
+        </div>
+        <div class="menu__content col-12 col-lg-4 wine" style="display: block;">
+          <ul>
+            <li class="mt-4">
+              <p class="menu__food-name">OLD WINE . . . .<span class="menu__food-price"> 100 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">NEW WINE . . . .<span class="menu__food-price"> 2 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">ANCIENT WINE . . . .<span class="menu__food-price"> 700 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">RED WINE . . . .<span class="menu__food-price"> 65 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">POOR WINE . . . .<span class="menu__food-price"> 1 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">STRANGE WINE . . . .<span class="menu__food-price"> 900 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">DESERT . . . .<span class="menu__food-price"> 222 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+          </ul>
+        </div>
+        <div class="menu__content col-12 col-lg-4 wine" style="display: block;">
+          <ul>
+            <li class="mt-4">
+              <p class="menu__food-name">OLD WINE . . . .<span class="menu__food-price"> 100 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">NEW WINE . . . .<span class="menu__food-price"> 2 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">ANCIENT WINE . . . .<span class="menu__food-price"> 700 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">RED WINE . . . .<span class="menu__food-price"> 65 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">POOR WINE . . . .<span class="menu__food-price"> 1 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">STRANGE WINE . . . .<span class="menu__food-price"> 900 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">DESERT . . . .<span class="menu__food-price"> 222 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="menu__content col-12 col-lg-4 drinks">
+          <ul>
+            <li class="mt-4">
+              <p class="menu__food-name">WATER . . . .<span class="menu__food-price"> 2 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">COCA-COLA . . . .<span class="menu__food-price"> 5 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">SPRITE . . . .<span class="menu__food-price"> 5 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">ICE CREAM COCTAILE . . . .<span class="menu__food-price"> 15 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">TEA . . . .<span class="menu__food-price"> 2 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">COFFE . . . .<span class="menu__food-price"> 4 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">JUICE . . . .<span class="menu__food-price"> 8 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+          </ul>
+        </div>
+        <div class="menu__content col-12 col-lg-4 drinks" style="display: block;">
+          <ul>
+            <li class="mt-4">
+              <p class="menu__food-name">WATER . . . .<span class="menu__food-price"> 2 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">COCA-COLA . . . .<span class="menu__food-price"> 5 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">SPRITE . . . .<span class="menu__food-price"> 5 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">ICE CREAM COCTAILE . . . .<span class="menu__food-price"> 15 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">TEA . . . .<span class="menu__food-price"> 2 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">COFFE . . . .<span class="menu__food-price"> 4 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">JUICE . . . .<span class="menu__food-price"> 8 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+          </ul>
+        </div>
+        <div class="menu__content col-12 col-lg-4 drinks" style="display: block;">
+          <ul>
+            <li class="mt-4">
+              <p class="menu__food-name">WATER . . . .<span class="menu__food-price"> 2 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">COCA-COLA . . . .<span class="menu__food-price"> 5 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">SPRITE . . . .<span class="menu__food-price"> 5 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">ICE CREAM COCTAILE . . . .<span class="menu__food-price"> 15 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">TEA . . . .<span class="menu__food-price"> 2 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">COFFE . . . .<span class="menu__food-price"> 4 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+            <li class="mt-4">
+              <p class="menu__food-name">JUICE . . . .<span class="menu__food-price"> 8 USD </span>
+              </p>
+              <p class="menu__food-description">Integer ullamcorper neque eu purus euismod</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="events py-5" style='background-image: url(img/events/eventsBg.jpg);' id="events">
+    <span class="events__bg events__bg-left d-none d-lg-block"></span>
+    <span class="events__bg events__bg-right d-none d-lg-block"></span>
+    <div class="container">
+      <div class="events__header row justify-content-center">
+        <h3 class="events__tilte">PRIVATE EVENTS</h3>
+        <div class="events__content row justify-content-between">
+          <a href="#" class="events__card hvr-grow d-flex col-12 col-lg-5" style="position: relative;">
+            <img src="img/events/marriage.png" alt="">
+            <p class="events__text events__text--1">weddings</p>
+          </a>
+          <a href="#" class="events__card hvr-grow d-flex col-12 col-lg-5" style="position: relative;">
+            <p class="events__text events__text--2">corporate pzrties</p>
+            <img src="img/events/corporates.png" alt="">
+          </a>
+        </div>
+        <div class="events__footer row col-12 justify-content-center col-6">
+          <h3 class="events__footer-title">For private events please call:
+            <a href="tel:+40729131637" class="events__tel">+40 729 131 637</a>/
+            <a href="tel:+40726458782" class="events__tel">+40 726 458 782</a>
+            or use the
+            contact form.</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="gallery" id="gallery">
+    <div class="row">
+      <a data-fancybox="images" data-width="1920" data-heigth="1080" class="col-lg-3 col-6 gallery__img"
+        href="img/gallery/img1.jpg"><img src="img/gallery/img1.jpg" alt=""></a>
+      <a data-fancybox="images" data-width="1920" data-heigth="1080" class="col-lg-3 col-6 gallery__img"
+        href="img/gallery/img2.jpg"><img src="img/gallery/img2.jpg" alt=""></a>
+      <a data-fancybox="images" data-width="1920" data-heigth="1080" class="col-lg-3 col-6 gallery__img"
+        href="img/gallery/img3.jpg"><img src="img/gallery/img3.jpg" alt=""></a>
+      <a data-fancybox="images" data-width="1920" data-heigth="1080" class="col-lg-3 col-6 gallery__img"
+        href="img/gallery/img4.jpg"><img src="img/gallery/img4.jpg" alt=""></a>
+    </div>
+  </section>
+  <section class="contact py-5" id="contact">
+    <div class="container">
+      <div class="contact__header row justify-content-center col-12 text-center">
+        <h3 class="contact__title col-12">CONTACT</h3>
+        <p class="contact__text mt-5 col-12 col-lg-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Duis at
+          velit
+          maximus,
+          molestie est a, tempor magna.</p>
+      </div>
+      <div class="contact__forms row col-12 mt-5">
+        <form class="col-12" action="POST" autocomplete="off">
+          <div class="contact__form-header row col-12 justify-content-between">
+            <input class="contact__input contact__input-small col-12 col-lg-3" type="text" name="Name"
+              placeholder="Name">
+            <input class="contact__input contact__input-small mt-3 mt-lg-0 col-12 col-lg-3" type="email" name="Email"
+              placeholder="Email">
+            <input class="contact__input contact__input-small mt-3 mt-lg-0 col-12 col-lg-3" type="tel" name="Phone"
+              placeholder="Phone">
+          </div>
+          <textarea class="contact__input contact__input-message row col-12 mt-2" name="Message"
+            placeholder="Message"></textarea>
+          <div class="contact__form-footer row align-items-center justify-content-between mt-4">
+            <div class="contact__footer-contacts row justify-content-between col-12 col-lg-7 d-none d-lg-flex">
+              <div class="contact__footer-contacts row align-items-center">
+                <i class="fas fa-map-marker-alt mr-2"></i>
+                <p class="contact__contacts-text">London Boulevard, U.K.</p>
+              </div>
+              <div class="contact__footer-contacts row align-items-center">
+                <i class="fas fa-phone-alt mr-2"></i>
+                <p class="contact__contacts-text">+40 729 131 637/+40 726 458 782</p>
+              </div>
+              <div class="contact__footer-contacts row align-items-center">
+                <span class="far fa-envelope mr-2"></span>
+                <p class="contact__contacts-text">office@mindblister.com</p>
+              </div>
+            </div>
+            <button class="contact__footer-btn col-12 col-lg-5 mt-4 mt-lg-0" type="button">SEND MESSAGE</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <section class="map">
+    <div class="container-fluid">
+      <div class="map__mapouter">
+        <div class="map__gmap-canvas">
+          <iframe width="100%" height="475" id="map__gmap-canvas"
+            src="https://maps.google.com/maps?q=cafe&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no"
+            marginheight="0" marginwidth="0"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <h3 class="footer__title">© Copyright <strong>Daniel</strong> 2020</h3>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
